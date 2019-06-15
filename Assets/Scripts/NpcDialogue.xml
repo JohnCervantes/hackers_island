@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dialogue>
+  <NpcDialogue>
+    <NpcDialogueNumber>1</NpcDialogueNumber>
+    <Texts>
+      <Text>Eldritch, How are you doing?</Text>
+      <Text>I'm not feeling good. . </Text>
+      <Text>Cheer up! it's an exciting time in the world right now!</Text>  
+    </Texts>
+  </NpcDialogue>
+
+
+  <NpcDialogue>
+    <NpcDialogueNumber>2</NpcDialogueNumber>
+    <Texts>
+      <Text>Eldritch, The campfire is dying! what can we do?</Text>
+      <Text>No idea, there's gotta be somwehere here that can we can get some fire.</Text>
+      <Text>I wonder where would that be.</Text>
+    </Texts>
+  </NpcDialogue>
+
+  <NpcDialogue>
+    <NpcDialogueNumber>3</NpcDialogueNumber>
+    <Texts>
+      <Text>It's bird hunting season, let's go hunt!</Text>
+      <Text>Sure, but I'm a terrible shooter.</Text>
+      <Text>No worries. I'll teach you a few tricks.</Text>
+    </Texts>
+  </NpcDialogue>
+
+  
+  
+  
+  
+  <NpcDialogue>
+    <NpcDialogueNumber>100</NpcDialogueNumber>
+    <Texts>
+      <Text>That was cool, brother!</Text>
+      <Text>Bird up!</Text>
+    </Texts>
+  </NpcDialogue>
+
+
+  <NpcDialogue>
+    <NpcDialogueNumber>101</NpcDialogueNumber>
+    <Texts>
+      <Text>FIYAAAAAAA!</Text>
+      <Text>that was lit</Text>
+    </Texts>
+  </NpcDialogue>
+
+ 
+</Dialogue>

@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 80dad7435e7a06d4f90c879de23eeca7
+timeCreated: 1496031531
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 300
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Determination Mono
+  fontNames:
+  - Determination Mono
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

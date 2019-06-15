@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<Dialogue>
+  
+	<DialogueNode>
+		<NodeID>0</NodeID>
+    <UIText>
+      <Text>Hey, watch where you're going! Are you blind? Hello?</Text>
+      <Text>Be more careful next time, will ya?.</Text>
+      <Text>Anyway, I've never seen you around here before. You must be new.</Text>
+      <Text>So, What brings you here?</Text>
+      <Text>Are you joining the tournament?</Text>
+      <Text>By the way, My name is Amelia</Text>
+      <Text>what is your name?</Text>
+    </UIText>
+    <optionText>What's your Name?</optionText>
+    <Options>
+    </Options>
+	</DialogueNode>
+
+  <DialogueNode>
+    <NodeID>1</NodeID>
+    <UIText>
+      <Text>Hi there, </Text>
+      <Text>Did i get your name right?</Text>
+    </UIText>
+    <optionText>Confirm your Name</optionText>
+
+    <Options>
+      <DialogueOptions>
+        <ButtonText>Yup, that's definitely my name.</ButtonText>
+        <DestinationNodeID>2</DestinationNodeID>
+      </DialogueOptions>
+      <DialogueOptions>
+        <ButtonText> ooops, that's not me</ButtonText>
+        <DestinationNodeID>2.1</DestinationNodeID> 
+      </DialogueOptions>
+    </Options>
+  </DialogueNode>
+  
+  <DialogueNode>
+    <NodeID>2.1</NodeID>
+    <UIText>
+      <Text>Oh, no worries.</Text>
+      <Text>Tell me your name again.</Text>
+      <Text>your are?</Text>
+    </UIText>
+    <optionText>What's your Name?</optionText>
+    <Options>
+    </Options>
+  </DialogueNode>
+  
+
+
+  <DialogueNode>
+    
+    <NodeID>2</NodeID>
+    
+    <UIText>
+      <Text>Nice to meet you and I'm sorry for what had happened earlier.</Text>
+      <Text>Anyway, Let me share some advice to you on how you can win the competition.</Text>
+      <Text>The best hackers are not just good with hacking others.</Text>
+      <text>but they are more skilled with protecting their anonymity and data.</text>
+      <Text>Let me ask you a few questions and be honest me.</Text>
+      <Text>. . . .</Text>
+    </UIText>
+    
+    <optionText>Are you concerned with your personal privacy?</optionText>
+
+    <Options>
+      <DialogueOptions>
+        <ButtonText>Yes, I value all my personal privacy information</ButtonText>
+        <DestinationNodeID>3</DestinationNodeID>
+        <score>4</score>
+      </DialogueOptions>
+      <DialogueOptions>
+        <ButtonText>Somewhat, I choose what data I shared with others</ButtonText>
+        <DestinationNodeID>3</DestinationNodeID>
+        <score>3</score>
+      </DialogueOptions>
+      <DialogueOptions>
+        <ButtonText>I barely think about my privacy</ButtonText>
+        <DestinationNodeID>3</DestinationNodeID>
+         <score>2</score>
+      </DialogueOptions>
+      <DialogueOptions>
+        <ButtonText>No, I don't value my privacy</ButtonText>
+        <DestinationNodeID>3</DestinationNodeID>
+        <score>1</score>
+      </DialogueOptions>
+    </Options>
+  </DialogueNode>
+
+  <DialogueNode>
+    <NodeID>3</NodeID>
+    <UIText>
+      <text>Interesting choice. . .</text>
+      <text>Everyone should always be concerned on how much data we are publicly sharing and how the data is eventually used.</text>
+    </UIText>
+    
+    <optionText>Can you protect your data from other hackers?</optionText>
+
+    <Options>
+      <DialogueOptions>
+        <ButtonText>Yes, I have full control over my personal data</ButtonText>
+        <DestinationNodeID>4</DestinationNodeID>
+        <score>4</score>
+      </DialogueOptions>
+      <DialogueOptions>
+        <ButtonText>Somewhat, I stopped using social media and use a password manager</ButtonText>
+        <DestinationNodeID>4</DestinationNodeID>
+        <score>3</score>
+      </DialogueOptions>
+      <DialogueOptions>
+        <ButtonText>Barely, I change my password on my accounts every year</ButtonText>
+        <DestinationNodeID>4</DestinationNodeID>
+        <score>2</score>
+      </DialogueOptions>
+      <DialogueOptions>
+        <ButtonText>No, I can't protect my personal data</ButtonText>
+        <DestinationNodeID>4</DestinationNodeID>
+        <score>1</score>
+      </DialogueOptions>
+    </Options>
+  </DialogueNode>
+
+
+  <DialogueNode>
+    <NodeID>4</NodeID>
+    <UIText>
+      <text>Uh-huh. . .</text>
+      <text>There are many ways on how we can protect our data that requires a little effort.</text>
+      <text>Using a password manager allows us to create super-strong passwords to ensure the security.</text>
+    <text>Try browsing with Duck Duck Go, a search engine that never stores your search data.</text>
+      <text>Turn on two-factor authorization for your key accounts (like email and bank).</text>
+      <text>Take the Tor browser for a test drive, it prevents somebody from watching or listening to your online activities.</text>
+    </UIText>
+    <optionText></optionText>
+    <Options>
+    </Options>
+  </DialogueNode>
+
+  <DialogueNode>
+    <NodeID>5</NodeID>
+    <UIText>
+      <Text>Thank you for chatting with me!</Text>
+      <Text>well, I'll see you around.</Text>
+    </UIText>
+    <optionText></optionText>
+    <Options>
+    </Options>
+  </DialogueNode>
+  
+  
+
+</Dialogue>
+
+
+
+
+
+<!--template for a dialogue node
+
+<DialogueNode>
+		<NodeID>0</NodeID>
+    <UIText>
+      <Text>Hi, Welcome  </Text>
+      <Text>enjoy your stay</Text>
+    </UIText>
+    <optionText>Fill up a survey</optionText>
+    
+		<Options>
+			<DialogueOptions> 
+				<ButtonText>survey- regular</ButtonText>
+				<DestinationNodeID>1</DestinationNodeID> 
+			 </DialogueOptions>
+			 <DialogueOptions> 
+			 	<ButtonText>survey-pictures</ButtonText>
+			 	<DestinationNodeID>2</DestinationNodeID>
+			 </DialogueOptions>
+      <DialogueOptions>
+        <ButtonText>survey - </ButtonText>
+        <DestinationNodeID>3</DestinationNodeID>
+      </DialogueOptions>
+      <DialogueOptions>
+        <ButtonText>survey - </ButtonText>
+        <DestinationNodeID>4</DestinationNodeID>
+      </DialogueOptions>
+      
+		</Options>
+	</DialogueNode>-->
+
+
+
+		
+	

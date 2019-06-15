@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 165b358cfe5fb534f8a988f0f4b3c403
+timeCreated: 1488837871
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - textBox: {instanceID: 0}
+  - UIText: {instanceID: 0}
+  - xmltextFile: {fileID: 4900000, guid: ca7e21d6ec0514a42bc28fba4560b596, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

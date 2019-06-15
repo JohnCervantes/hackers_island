@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Mainmenu.unity
+    guid: 40f56f0a6ee64c142ab640babcb9c88b
+  - enabled: 1
+    path: Assets/Scenes/IslandDay.unity
+    guid: bdcae1f24d7fcf143b0ad721080051ac
+  - enabled: 1
+    path: Assets/Scenes/Bar.unity
+    guid: 1103cae08547eb34c942f5158a042748
+  - enabled: 1
+    path: Assets/Scenes/Gameover.unity
+    guid: 20f6a3db68a022e479e4d28fae2b6824
+  - enabled: 1
+    path: Assets/Scenes/CastleStage.unity
+    guid: 81e9e7e0f9eb5c74b8bc8f08e1d7dfa6
+  - enabled: 1
+    path: Assets/Scenes/CastleStageBridge.unity
+    guid: b0629850d5f0aca40a85e08c8cb1ce85
+  - enabled: 1
+    path: Assets/Scenes/CastleStageFinal.unity
+    guid: 0a641e23e49782846b9aae7ad0ce5d3a
