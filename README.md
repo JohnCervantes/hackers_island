@@ -2,5 +2,7 @@
 
 Educational / 2d-platformer game that teach the players on how to protect their anonimity and data against common cyber attacks.
 
-Demo: https://youtu.be/gHrScBz_K00
+Demo:
+https://youtu.be/gHrScBz_K00
+https://youtu.be/s3arzK9UeEE
 
